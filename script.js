@@ -56,7 +56,7 @@ function update() {
         head.y < 0 ||
         head.y >= canvas.height
     ) {
-        alert("Game Over");
+        alert("Perdiste Imbecil");
         snake = [{x: 200, y: 200}];
         dx = 0;
         dy = 0;
@@ -130,3 +130,4 @@ document.addEventListener("keydown", function(e) {
         dy = 0;
     }
 });
+
